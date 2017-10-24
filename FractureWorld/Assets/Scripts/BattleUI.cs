@@ -10,9 +10,11 @@ public class BattleUI : MonoBehaviour {
     private Text _speedText;
     [SerializeField]
     private Text _powerText;
+    [SerializeField]
+    private Text _scoreText;
 
-	// Use this for initialization
-	void Start ()
+    // Use this for initialization
+    void Start ()
     {
         _player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         StartCoroutine(UpdateUI());
@@ -24,6 +26,7 @@ public class BattleUI : MonoBehaviour {
 
         _speedText.text = _player.GetSpeed().ToString("0");
         _powerText.text = _player.GetPower().ToString("0");
+        _scoreText.text = _player.GetScore().ToString("0");
 
         StartCoroutine(UpdateUI());
     }

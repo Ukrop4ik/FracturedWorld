@@ -917,6 +917,7 @@ MonoBehaviour:
   _fracturesMass: 5
   _dependFracture: []
   isDestroy: 0
+  _defence: 50
 --- !u!136 &136966651590010154
 CapsuleCollider:
   m_ObjectHideFlags: 1

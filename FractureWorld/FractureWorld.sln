@@ -1,12 +1,30 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FractureWorld.Plugins", "FractureWorld.Plugins.csproj", "{4966596B-4A6F-AB9B-7CAB-2E051A41E812}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FractureWorld", "FractureWorld.csproj", "{6C04C1E7-753A-A172-FEF1-B4B537B0631B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FractureWorld.Editor.Plugins", "FractureWorld.Editor.Plugins.csproj", "{498E13E7-C63D-2F4B-8ACD-22673AF518C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4966596B-4A6F-AB9B-7CAB-2E051A41E812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4966596B-4A6F-AB9B-7CAB-2E051A41E812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4966596B-4A6F-AB9B-7CAB-2E051A41E812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4966596B-4A6F-AB9B-7CAB-2E051A41E812}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C04C1E7-753A-A172-FEF1-B4B537B0631B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C04C1E7-753A-A172-FEF1-B4B537B0631B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C04C1E7-753A-A172-FEF1-B4B537B0631B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C04C1E7-753A-A172-FEF1-B4B537B0631B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{498E13E7-C63D-2F4B-8ACD-22673AF518C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{498E13E7-C63D-2F4B-8ACD-22673AF518C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{498E13E7-C63D-2F4B-8ACD-22673AF518C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{498E13E7-C63D-2F4B-8ACD-22673AF518C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

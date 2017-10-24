@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour {
-    private Rigidbody _rigedbody;
     [SerializeField]
-    private Transform _playerTransform;
+    private int Score;
+    private SingleJoystick _joy;
+    private Rigidbody _rigedbody;
     [SerializeField]
     private Vector3 _targetVector;
     [SerializeField]
@@ -18,7 +19,7 @@ public class Player : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
-        _playerTransform = GameObject.FindGameObjectWithTag("Pointer").transform;
+        _joy = GameObject.Find("Joy").GetComponent<SingleJoystick>();
         _rigedbody = GetComponent<Rigidbody>();
         StartCoroutine(Speedometer());
     }
@@ -32,9 +33,9 @@ public class Player : MonoBehaviour {
         //}
 
         //_rigedbody.AddForce(_targetVector * _force);
-
-        _rigedbody.AddForce(Vector3.forward * Input.GetAxis("Vertical") * _force);
-        _rigedbody.AddForce(Vector3.right * Input.GetAxis("Horizontal") * _force);
+        //Debug.Log(_joy.GetInputDirection());
+        _rigedbody.AddForce(Vector3.forward * _joy.GetInputDirection().y * _force);
+        _rigedbody.AddForce(Vector3.right * _joy.GetInputDirection().x * _force);
     }
 
     private IEnumerator Speedometer()
@@ -61,5 +62,12 @@ public class Player : MonoBehaviour {
     {
         return _power;
     }
-
+    public int GetScore()
+    {
+        return Score;
+    }
+    public void SetScore(int value)
+    {
+        Score += value;
+    }
 }

@@ -619,3 +619,4 @@ MonoBehaviour:
   _fracturesMass: 2
   _dependFracture: []
   isDestroy: 0
+  _defence: 30
