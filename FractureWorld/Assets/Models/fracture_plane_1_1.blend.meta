@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: 10e03da4600adf144ba943133687af20
+timeCreated: 1508749681
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: plane
+    100004: plane_cell
+    100006: plane_cell_001
+    100008: plane_cell_002
+    100010: plane_cell_003
+    100012: plane_cell_004
+    100014: plane_cell_005
+    100016: plane_cell_006
+    100018: plane_cell_007
+    100020: plane_cell_008
+    100022: plane_cell_009
+    100024: plane_cell_010
+    100026: plane_cell_011
+    400000: //RootNode
+    400002: plane
+    400004: plane_cell
+    400006: plane_cell_001
+    400008: plane_cell_002
+    400010: plane_cell_003
+    400012: plane_cell_004
+    400014: plane_cell_005
+    400016: plane_cell_006
+    400018: plane_cell_007
+    400020: plane_cell_008
+    400022: plane_cell_009
+    400024: plane_cell_010
+    400026: plane_cell_011
+    2300000: plane
+    2300002: plane_cell
+    2300004: plane_cell_001
+    2300006: plane_cell_002
+    2300008: plane_cell_003
+    2300010: plane_cell_004
+    2300012: plane_cell_005
+    2300014: plane_cell_006
+    2300016: plane_cell_007
+    2300018: plane_cell_008
+    2300020: plane_cell_009
+    2300022: plane_cell_010
+    2300024: plane_cell_011
+    3300000: plane
+    3300002: plane_cell
+    3300004: plane_cell_001
+    3300006: plane_cell_002
+    3300008: plane_cell_003
+    3300010: plane_cell_004
+    3300012: plane_cell_005
+    3300014: plane_cell_006
+    3300016: plane_cell_007
+    3300018: plane_cell_008
+    3300020: plane_cell_009
+    3300022: plane_cell_010
+    3300024: plane_cell_011
+    4300000: plane_cell_011
+    4300002: plane_cell_010
+    4300004: plane_cell_009
+    4300006: plane_cell_008
+    4300008: plane_cell_007
+    4300010: plane_cell_006
+    4300012: plane_cell_005
+    4300014: plane_cell_004
+    4300016: plane_cell_003
+    4300018: plane_cell_002
+    4300020: plane_cell_001
+    4300022: plane_cell
+    4300024: plane
+    6400000: plane
+    6400002: plane_cell
+    6400004: plane_cell_001
+    6400006: plane_cell_002
+    6400008: plane_cell_003
+    6400010: plane_cell_004
+    6400012: plane_cell_005
+    6400014: plane_cell_006
+    6400016: plane_cell_007
+    6400018: plane_cell_008
+    6400020: plane_cell_009
+    6400022: plane_cell_010
+    6400024: plane_cell_011
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
